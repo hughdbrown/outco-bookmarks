@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Outco bookmarks",
+    "version": "0.2",
+    "description": "Addin to create Outco bookmarks",
+    "author": "hughdbrown@yahoo.com",
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Outco bookmarks",
+        "default_popup": "background.html"
+    },
+    "permissions": [
+        "bookmarks"
+    ]
+}
