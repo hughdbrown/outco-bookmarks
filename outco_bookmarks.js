@@ -11,8 +11,15 @@ const folderName = "Outco";
 function add_bookmarks(root_id) {
     // Create all bookmarks
     urls.map(function(url) {
-        chrome.bookmarks.create(
-            {parentId: root_id, url: url, title: url}
+        const search_payload = {url: url, title: url};
+        const create_payload = {parentId: root_id, url: url, title: url};
+        chrome.bookmarks.search(
+            search_payload,
+            function(results) {
+                if (results.length == 0) {
+                    chrome.bookmarks.create(create_payload);
+                }
+            }
         );
     });
 }
