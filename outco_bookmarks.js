@@ -1,22 +1,4 @@
-const urls = [
-    // Other stuff
-    "https://codeinterview.io/",
-    "https://airtable.com/",
-
-    // Outco urls
-    "https://outco.io/interviewfeedback",
-    "https://outco.io/interviewrecap",
-    "https://outco.io/offers",
-    "https://outco.io/outcodersupport",
-    "https://outco.io/reflections",
-
-    // bit.ly urls
-    "http://bit.ly/outco-online1",
-    "http://bit.ly/outco-outcomes",
-    "http://bit.ly/outcointerviewprep",
-    "http://bit.ly/outcojobresources"
-];
-const folderName = "Outco";
+import {urls, folderName} from "./urls.js";
 
 function add_bookmarks(root_id) {
     // Create all bookmarks
