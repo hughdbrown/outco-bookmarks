@@ -9,6 +9,12 @@
         "default_title": "Outco bookmarks",
         "default_popup": "background.html"
     },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["urls.js"]
+        }
+    ],
     "permissions": [
         "bookmarks"
     ]
