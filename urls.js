@@ -10,6 +10,9 @@ export const urls = [
     "https://outco.io/outcodersupport",
     "https://outco.io/reflections",
 
+    // Teachable
+    "https://outco.teachable.com/courses/enrolled/438359",
+
     // bit.ly urls
     "http://bit.ly/outco-online1",
     "http://bit.ly/outco-outcomes",
@@ -20,7 +23,10 @@ export const urls = [
     "https://www.levels.fyi/#",
 
     // Tech interview
-    "https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed"
+    "https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed",
+
+    // Key company values
+    "https://keyvalues.com/"
 ];
 
 
